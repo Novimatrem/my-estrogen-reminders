@@ -1,5 +1,9 @@
+# my-estrogen-reminders
+
 this script is configured and timed specifically only for me, with no way to change it outside of editing the bash scripts in multiple places at the moment, sorry, it was made in a rush.
 i do know better bash, i just didn't want to bother.
+
+it reminds at 9 AM, 3 PM, and 9 PM, by default, every day.
 
 depends upon and requires: `zenity`, `espeak`, `paplay`, `bash`, and a working `notify-send` command from something like `libnotify`/`libnotify-bin`
 
