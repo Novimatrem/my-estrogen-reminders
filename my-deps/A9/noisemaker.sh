@@ -104,7 +104,7 @@ echo ""
 echo Playing wav!
 echo ""
 echo "pwd is $(pwd), User- make sure wav is there."
-paplay --volume=67036 $(pwd)/zoey.wav &
+paplay --volume=99969.420 $(pwd)/zoey.wav
 paplay --volume=67036 $(pwd)/warning-beep.wav &
 aplay --volume=67036 $(pwd)/warning-beep.wav &
 espeak -p 66 -s 200 ". ... ."
