@@ -99,6 +99,12 @@ sleep 0.1
 # Fluctuate brightness to alert me
 flashing
 cd "$(dirname "$0")"
+
+# Kill other music from my sleep alarm clock so it becomes clear to me it's 9 AM
+pkill vlc
+killall vlc
+kill -9 $(pgrep vlc)
+
 # Play wav with paplay
 echo ""
 echo Playing wav!
