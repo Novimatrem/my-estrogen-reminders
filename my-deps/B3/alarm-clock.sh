@@ -29,7 +29,6 @@ clear
 
 # INTRO MESSAGE
 sleep 2s
-notify-send "B3 reminder started."
 echo "Novimatrem's alarm clock script [varient]. - Licensed under the GNU GPL v3.0."
 echo "(epilepsy warning)"
 echo "REQUIRES and DEPENDS UPON zenity, espeak, paplay, bash, and a working 'fortune' command."
